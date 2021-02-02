@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:padding="16dp"
+    android:background="@drawable/drawercover"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+    <TextView
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Stay With Us : You Will Enjoy Your Time"
+        android:textSize="24sp"
+        android:layout_gravity="bottom"
+        android:paddingTop="100dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

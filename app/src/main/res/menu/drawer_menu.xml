@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/single"
+            android:title="Single Player"
+            android:visible="true"
+            android:icon="@drawable/ic_single_player"
+            />
+        <item android:id="@+id/multi"
+            android:title="Multi Player"
+            android:visible="true"
+            android:icon="@drawable/ic_multi_player"
+            />
+        <item android:id="@+id/computer"
+            android:title="With Computer"
+            android:visible="true"
+            android:icon="@drawable/ic_computer_player"
+            />
+    </group>
+    <item android:id="@+id/space"
+        android:title="" />
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/rules"
+            android:title="How To Play"
+            android:visible="true"
+            android:icon="@drawable/ic_how_to_play"
+            />
+        <item android:id="@+id/aboutus"
+            android:title="About Us"
+            android:visible="true"
+            android:icon="@drawable/ic_about_us"
+            />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/share"
+            android:title="Share"
+            android:visible="true"
+            android:icon="@drawable/ic_share_black_24dp"
+            />
+    </group>
+</menu>
